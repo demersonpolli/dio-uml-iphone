@@ -10,15 +10,15 @@ classDiagram
     IPhone: -boolean musicaTocando
     IPhone: -String numeroTelefone
     IPhone: -String musicaAtual
-    IPhone: +void ligarAparelho()
-    IPhone: +void modoAviao(boolean modoAviao)
-    IPhone: +void desligarAparelho()
-    AparelhoTelefonico: +void atender()
-    AparelhoTelefonico: +void iniciarCorreioVoz()
-    AparelhoTelefonico: +boolean ligar(String numero)
-    NavegadorInternet: +void adicionarNovaAba()
-    NavegadorInternet: +void atualizarPagina()
-    NavegadorInternet: +void exibirPagina(String url)
-    ReprodutorMusical: +void pausar()
-    ReprodutorMusical: +void selecionarMusica(String musica)
-    ReprodutorMusical: +void tocar()
+    IPhone: +ligarAparelho() void
+    IPhone: +modoAviao(boolean) void
+    IPhone: +desligarAparelho() void
+    AparelhoTelefonico: +atender() void
+    AparelhoTelefonico: +iniciarCorreioVoz() void
+    AparelhoTelefonico: +ligar(String) boolean
+    NavegadorInternet: +adicionarNovaAba() void
+    NavegadorInternet: +atualizarPagina() void
+    NavegadorInternet: +exibirPagina(String) void
+    ReprodutorMusical: +pausar() void
+    ReprodutorMusical: +selecionarMusica(String) void
+    ReprodutorMusical: +tocar() void
